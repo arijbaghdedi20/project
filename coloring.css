@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('alphabet2jpg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', monospace;
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 28px;
+  border-radius: 7px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  animation: slideUp 0.8s ease-in-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.heading {
+  font-size: 28px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.input {
+  height: 53px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  padding: 0 42px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.meaning-container {
+  display: none;
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  animation: fadeIn 0.5s ease-in-out;
+}
