@@ -30,3 +30,9 @@ async function fetchAPI(word) {
 }
 
 inputEl.addEventListener("keyup", (e) => e.key === "Enter" && e.target.value && fetchAPI(e.target.value));
+
+
+
+
+
+

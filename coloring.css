@@ -10,7 +10,7 @@ body {
   font-family: 'Courier New', monospace;
   animation: fadeIn 1s ease-in-out;
 }
-
+/*body styling*/
 
 
 @keyframes fadeIn {
@@ -40,7 +40,7 @@ body {
   from { transform: translateY(50px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
-
+/*animation effect*/
 .heading {
   font-size: 28px;
   animation: fadeIn 1.5s ease-in-out;
@@ -70,5 +70,6 @@ body {
   border-radius: 5px;
   animation: fadeIn 0.5s ease-in-out;
 }
-
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) and (max-width: 1200px)  { /* ... */ } 
 
